@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapp">
+        <form action="">
+            <div class="title-input">
+                <label for="title">Title</label>
+                <input type="text" name="title">
+            </div>
+            <div class="date-input">
+                <label for="date">Select a date</label>
+                <input type="date" name="date">
+            </div>
+            <input type="submit" value="Submit" class="submit-button button">
+        </form>
+        <div class="countdown hidden">
+            <h2 class="title">Countdown</h2>
+            <div class="time">
+                <span class="days">0</span>
+                <span class="hours">0</span>
+                <span class="minutes">0</span>
+                <span class="seconds">0</span>
+            </div>
+            <button class="reset-button button">Reset</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

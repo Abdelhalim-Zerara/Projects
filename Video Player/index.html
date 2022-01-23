@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <video src="Video/test.mp4"></video>
+        <div class="controls">
+            <div class="progress-bar">
+                <div class="progress-level"></div>
+            </div>
+            <span class="left">
+                <span class="play-button button">&#10074;&#9654;</span>
+                <span class="volume">
+                    <span class="volume-button button">&#9835;</span>
+                    <div class="volume-bar">
+                        <div class="volume-level"></div>
+                    </div>
+                </span>
+            </span>
+            <span class="right">
+                <select class="speed-menu">
+                    <option value="0.5">0.5x</option>
+                    <option value="0.75">0.75x</option>
+                    <option value="1" selected>1.0x</option>
+                    <option value="1.5">1.5x</option>
+                    <option value="2">2.0x</option>
+                </select>
+                <span class="timeline">
+                    <span class="current-time">0:00</span>/
+                    <span class="total-time">0.00</span>
+                </span>
+                <span class="fullscreen-button button">&#9974;</span>
+            </span>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

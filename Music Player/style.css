@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serifs;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 205, 205);
+}
+
+.music-player{
+    padding: 50px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    color: gray;
+}
+
+.album-image img{
+    transform: translateY(-30%);
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    width: 320px;
+    height: 320px;
+}
+
+.song-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    color: black;
+    margin: 10px;
+}
+
+.song-title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 37px;
+    overflow: hidden;
+}
+
+.song-artist{
+    text-align: center;
+    font-size: large;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons div{
+    margin: 10px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.next-button,
+.last-button{
+    transform: translateY(15%);
+}
+
+.progress-bar-wrapper {
+    width: 100%;
+}
+
+.times{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar{
+    cursor: pointer;
+    margin: 5px 0;
+    width: 100%;
+    height: 10px;
+    border-radius: 1.5em;
+    background-color: white;
+}
+
+.progress-level{
+    border-radius: 1.5em;
+    width: 0%;
+    background-color: rgb(50,50, 50);
+    height: 10px;
+}

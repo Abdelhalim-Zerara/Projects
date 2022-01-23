@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+}
+
+.wrapper{
+    max-width: 560px;
+    width: 100%;
+    min-height: 230px;
+    text-align: center;
+    background-color: #424242;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+}
+.msg{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    margin: 5px 0;
+}
